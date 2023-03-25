@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ECommerece" >
+    <parameter name="browser" value="chrome"/>
+    <test name="test_ecommerce" preserve-order="true">
+        <classes>
+<!--            <class name="Test.BaseTest"></class>-->
+            <class name="Test.TC01"></class>
+            <class name="Test.TC02"></class>
+            <class name="Test.TC03"></class>
+            <class name="Test.TC04"></class>
+            <class name="Test.TC05"></class>
+            <class name="Test.TC06"></class>
+            <class name="Test.TC07"></class>
+            <class name="Test.TC08"></class>
+            <class name="Test.TC09"></class>
+            <class name="Test.TC10"></class>
+        </classes>
+
+    </test> <!-- Test -->
+<!--    <test name="TC">-->
+<!--        <classes>-->
+<!--            <class name="Test.TC01"></class>-->
+<!--            <class name="Test.TC02"></class>-->
+<!--            <class name="Test.TC03"></class>-->
+<!--            <class name="Test.TC04"></class>-->
+<!--            <class name="Test.TC05"></class>-->
+<!--            <class name="Test.TC06"></class>-->
+<!--            <class name="Test.TC07"></class>-->
+<!--            <class name="Test.TC08"></class>-->
+<!--            <class name="Test.TC09"></class>-->
+<!--            <class name="Test.TC10"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite> <!-- Suite -->
