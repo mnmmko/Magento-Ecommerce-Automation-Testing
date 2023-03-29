@@ -1,0 +1,15 @@
+Page\CartPage.class
+Page\HomePage.class
+Page\BasePage.class
+Page\MobilePage.class
+Page\CheckoutPage.class
+Page\ProductPage.class
+Page\LoginPage.class
+Page\TvPage.class
+Page\OrderMagentoPage.class
+Page\WishlistPage.class
+Report\Reportio.class
+Page\BackendLoginPage.class
+Page\RegisterPage.class
+Page\OrderPage.class
+Page\CompareWindowPage.class
