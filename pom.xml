@@ -90,7 +90,8 @@
                         <suiteXmlFile>test.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
-                        <browserName>chrome</browserName>
+<!--                         <browserName>chrome</browserName> -->
+                             <browser>{$Browser}</browser>
                     </systemPropertyVariables>
 
                 </configuration>
