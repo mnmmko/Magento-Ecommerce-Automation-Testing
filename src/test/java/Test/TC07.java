@@ -2,6 +2,7 @@ package Test;
 
 import Page.*;
 import org.openqa.selenium.WebDriver;
+import org.sikuli.script.FindFailed;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -30,10 +31,12 @@ public class TC07 extends BaseTest{
     }
 
     @Test(priority = 13)
-    public void verify_order_is_saved_as_pdf() {
+    public void verify_order_is_saved_as_pdf() throws FindFailed {
         op.click_print_order();
         op.switich_to_window();
-        //op.click_print();
+        op.click_print();
+        op.enter_filename(TC06.id);
+        op.click_save();
         op.close_pop_up_window();
     }
 }

@@ -14,7 +14,7 @@ public class TC06 extends BaseTest{
     WishlistPage wp;
     CartPage cp;
     CheckoutPage chp;
-
+    public static String id;
     @Test(priority = 9)
     public void verify_flat_rate_shipping_of_5$_is_genrated() throws InterruptedException {
        // driver=BaseTest.getDriver();
@@ -59,7 +59,7 @@ public class TC06 extends BaseTest{
         chp.click_continue03();
         chp.click_place_order();
         String orderId= chp.get_order_id();
-        String id=orderId.replaceAll("[^0-9]+","");
+        id=orderId.replaceAll("[^0-9]+","");
         System.out.println(orderId);
         BaseTest.take_screenShoot(id);
         chp.continue_shopinng();

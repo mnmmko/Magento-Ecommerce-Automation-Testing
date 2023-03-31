@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import org.sikuli.script.*;
+
 import java.util.Iterator;
 import java.util.Set;
 
@@ -16,6 +18,10 @@ public class BasePage{
     JavascriptExecutor jse;
     Select select;
     Actions actions;
+    Screen screen;
+    Pattern pattern;
+    Match match;
+    private String projectPath = System.getProperty("user.dir");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -65,6 +71,25 @@ public class BasePage{
         wait.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 
+    public void clickScreenButton(String element) throws FindFailed {
+        screen = new Screen();
+        pattern=new Pattern(projectPath+"\\screenelement\\"+element+".png");
+        screen.wait(pattern,20);
+        screen.click(pattern);
+    }
+    public void sendTextsecreen(String element,String text) throws FindFailed {
+        screen = new Screen();
+        pattern=new Pattern(projectPath+"\\screenelement\\"+element+".png");
+        screen.wait(pattern,20);
+        screen.type(pattern,text);
+    }
+    public String getTextScreen(String element) throws FindFailed {
+        screen = new Screen();
+        pattern=new Pattern(projectPath+"\\screenelement\\"+element+".png");
+        match=screen.find(pattern);
+        screen.wait(pattern,20);
+        return match.text();
+    }
 
 
     public void switich_to_window(){
