@@ -97,12 +97,12 @@
                         <suiteXmlFile>test.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
-<<<<<<< HEAD
+
                         <browserName>chrome</browserName>
-=======
+
 <!--                          <browserName>chrome</browserName> -->
                              <browser>{$Browser}</browser>
->>>>>>> c12e87f7c76e7133f8a76fcbb1f5e362fc8b7d3b
+
                     </systemPropertyVariables>
 
                 </configuration>

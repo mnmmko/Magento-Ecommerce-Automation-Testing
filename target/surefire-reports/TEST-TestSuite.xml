@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="87.792" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="98.33" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
     <property name="java.vm.version" value="25.161-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\user\Downloads\Flutter\Ecommerce_Testing"/>
+    <property name="maven.multiModuleProjectDirectory" value="I:\pro_vis\vis\Selenium\Ecommerce_Testing"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\user\Downloads\Flutter\Ecommerce_Testing"/>
+    <property name="user.dir" value="I:\pro_vis\vis\Selenium\Ecommerce_Testing"/>
     <property name="java.runtime.version" value="1.8.0_161-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
@@ -64,23 +64,23 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verify_title_of_home_page" classname="Test.TC01" time="0.198"/>
-  <testcase name="verfiy_title_of_mobile_page" classname="Test.TC01" time="1.011"/>
-  <testcase name="verify_product_sort_by_name" classname="Test.TC01" time="0.881"/>
-  <testcase name="verify_product_value" classname="Test.TC02" time="2.426"/>
-  <testcase name="verify_can_not_add_more_500_product_in_cart" classname="Test.TC03" time="3.604"/>
-  <testcase name="verify_cart_is_empty" classname="Test.TC03" time="0.936"/>
-  <testcase name="verify_pop_up_compare_window" classname="Test.TC04" time="4.102"/>
-  <testcase name="verify_pop_up_window_closed" classname="Test.TC04" time="0.122"/>
-  <testcase name="verify_account_register_done" classname="Test.TC05" time="4.459"/>
-  <testcase name="verify_wishlist_shared_successfully" classname="Test.TC05" time="4.078"/>
-  <testcase name="verify_flat_rate_shipping_of_5$_is_genrated" classname="Test.TC06" time="10.72"/>
-  <testcase name="verify_shipping_cost_is_add_total" classname="Test.TC06" time="0.166"/>
-  <testcase name="verify_order_is_created" classname="Test.TC06" time="6.504"/>
-  <testcase name="verify_recent_order_is_display" classname="Test.TC07" time="3.244"/>
-  <testcase name="verify_order_is_saved_as_pdf" classname="Test.TC07" time="0.902"/>
-  <testcase name="verify_grand_total_changed" classname="Test.TC08" time="5.282"/>
-  <testcase name="verify_order_number_is_genrated" classname="Test.TC08" time="4.219"/>
-  <testcase name="verify_dicount_is_applied" classname="Test.TC09" time="3.216"/>
-  <testcase name="verify_console_display_all_order_information" classname="Test.TC10" time="23.55"/>
+  <testcase name="verify_title_of_home_page" classname="Test.TC01" time="0.217"/>
+  <testcase name="verfiy_title_of_mobile_page" classname="Test.TC01" time="1.162"/>
+  <testcase name="verify_product_sort_by_name" classname="Test.TC01" time="0.885"/>
+  <testcase name="verify_product_value" classname="Test.TC02" time="2.45"/>
+  <testcase name="verify_can_not_add_more_500_product_in_cart" classname="Test.TC03" time="5.245"/>
+  <testcase name="verify_cart_is_empty" classname="Test.TC03" time="0.917"/>
+  <testcase name="verify_pop_up_compare_window" classname="Test.TC04" time="3.83"/>
+  <testcase name="verify_pop_up_window_closed" classname="Test.TC04" time="0.06"/>
+  <testcase name="verify_account_register_done" classname="Test.TC05" time="4.298"/>
+  <testcase name="verify_wishlist_shared_successfully" classname="Test.TC05" time="3.931"/>
+  <testcase name="verify_flat_rate_shipping_of_5$_is_genrated" classname="Test.TC06" time="8.984"/>
+  <testcase name="verify_shipping_cost_is_add_total" classname="Test.TC06" time="0.124"/>
+  <testcase name="verify_order_is_created" classname="Test.TC06" time="6.59"/>
+  <testcase name="verify_recent_order_is_display" classname="Test.TC07" time="3.201"/>
+  <testcase name="verify_order_is_saved_as_pdf" classname="Test.TC07" time="10.8"/>
+  <testcase name="verify_grand_total_changed" classname="Test.TC08" time="4.891"/>
+  <testcase name="verify_order_number_is_genrated" classname="Test.TC08" time="4.008"/>
+  <testcase name="verify_dicount_is_applied" classname="Test.TC09" time="3.017"/>
+  <testcase name="verify_console_display_all_order_information" classname="Test.TC10" time="24.418"/>
 </testsuite>
