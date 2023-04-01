@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="18" total="37" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="ECommerece" duration-ms="81610" started-at="2023-03-31T16:08:31Z" finished-at="2023-03-31T16:09:53Z">
+  <suite name="ECommerece" duration-ms="83089" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:43:08Z">
     <groups>
       <group name="tc01">
-        <method signature="TC01.verify_product_sort_by_name()[pri:2, instance:Test.TC01@69997e9d]" name="verify_product_sort_by_name" class="Test.TC01"/>
+        <method signature="TC01.verify_product_sort_by_name()[pri:2, instance:Test.TC01@4de4b452]" name="verify_product_sort_by_name" class="Test.TC01"/>
       </group> <!-- tc01 -->
     </groups>
-    <test name="test_ecommerce" duration-ms="81610" started-at="2023-03-31T16:08:31Z" finished-at="2023-03-31T16:09:53Z">
+    <test name="test_ecommerce" duration-ms="83089" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:43:08Z">
       <class name="Test.TC10">
-        <test-method status="PASS" signature="verify_console_display_all_order_information()[pri:17, instance:Test.TC10@6babf3bf]" name="verify_console_display_all_order_information" duration-ms="21975" started-at="2023-03-31T16:09:31Z" finished-at="2023-03-31T16:09:53Z">
+        <test-method status="PASS" signature="verify_console_display_all_order_information()[pri:17, instance:Test.TC10@ea6147e]" name="verify_console_display_all_order_information" duration-ms="20391" started-at="2023-04-01T13:42:47Z" finished-at="2023-04-01T13:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_console_display_all_order_information -->
       </class> <!-- Test.TC10 -->
       <class name="Test.TC02">
-        <test-method status="PASS" signature="verify_product_value()[pri:3, instance:Test.TC02@793be5ca]" name="verify_product_value" duration-ms="2380" started-at="2023-03-31T16:08:33Z" finished-at="2023-03-31T16:08:36Z">
+        <test-method status="PASS" signature="verify_product_value()[pri:3, instance:Test.TC02@50b5ac82]" name="verify_product_value" duration-ms="2482" started-at="2023-04-01T13:41:47Z" finished-at="2023-04-01T13:41:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_value -->
       </class> <!-- Test.TC02 -->
       <class name="Test.TC01">
-        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:Test.TC01@69997e9d]" name="open" is-config="true" duration-ms="4844" started-at="2023-03-31T16:08:26Z" finished-at="2023-03-31T16:08:31Z">
+        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:Test.TC01@4de4b452]" name="open" is-config="true" duration-ms="4908" started-at="2023-04-01T13:41:40Z" finished-at="2023-04-01T13:41:45Z">
           <params>
             <param index="0">
               <value>
@@ -33,89 +33,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="verify_title_of_home_page()[pri:0, instance:Test.TC01@69997e9d]" name="verify_title_of_home_page" duration-ms="146" started-at="2023-03-31T16:08:31Z" finished-at="2023-03-31T16:08:31Z">
+        <test-method status="PASS" signature="verify_title_of_home_page()[pri:0, instance:Test.TC01@4de4b452]" name="verify_title_of_home_page" duration-ms="135" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_title_of_home_page -->
-        <test-method status="PASS" signature="verfiy_title_of_mobile_page()[pri:1, instance:Test.TC01@69997e9d]" name="verfiy_title_of_mobile_page" duration-ms="985" started-at="2023-03-31T16:08:31Z" depends-on-methods="Test.TC01.verify_title_of_home_page" finished-at="2023-03-31T16:08:32Z">
+        <test-method status="PASS" signature="verfiy_title_of_mobile_page()[pri:1, instance:Test.TC01@4de4b452]" name="verfiy_title_of_mobile_page" duration-ms="1019" started-at="2023-04-01T13:41:45Z" depends-on-methods="Test.TC01.verify_title_of_home_page" finished-at="2023-04-01T13:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiy_title_of_mobile_page -->
-        <test-method status="PASS" signature="verify_product_sort_by_name()[pri:2, instance:Test.TC01@69997e9d]" name="verify_product_sort_by_name" duration-ms="885" started-at="2023-03-31T16:08:32Z" finished-at="2023-03-31T16:08:33Z">
+        <test-method status="PASS" signature="verify_product_sort_by_name()[pri:2, instance:Test.TC01@4de4b452]" name="verify_product_sort_by_name" duration-ms="983" started-at="2023-04-01T13:41:46Z" finished-at="2023-04-01T13:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_sort_by_name -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Test.TC01@69997e9d]" name="close" is-config="true" duration-ms="1138" started-at="2023-03-31T16:09:53Z" finished-at="2023-03-31T16:09:54Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.TC01@4de4b452]" name="close" is-config="true" duration-ms="665" started-at="2023-04-01T13:43:08Z" finished-at="2023-04-01T13:43:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Test.TC01 -->
       <class name="Test.TC04">
-        <test-method status="PASS" signature="verify_pop_up_compare_window()[pri:6, instance:Test.TC04@37654521]" name="verify_pop_up_compare_window" duration-ms="3813" started-at="2023-03-31T16:08:40Z" finished-at="2023-03-31T16:08:44Z">
+        <test-method status="PASS" signature="verify_pop_up_compare_window()[pri:6, instance:Test.TC04@6babf3bf]" name="verify_pop_up_compare_window" duration-ms="3561" started-at="2023-04-01T13:41:54Z" finished-at="2023-04-01T13:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_pop_up_compare_window -->
-        <test-method status="PASS" signature="verify_pop_up_window_closed()[pri:7, instance:Test.TC04@37654521]" name="verify_pop_up_window_closed" duration-ms="66" started-at="2023-03-31T16:08:44Z" finished-at="2023-03-31T16:08:44Z">
+        <test-method status="PASS" signature="verify_pop_up_window_closed()[pri:7, instance:Test.TC04@6babf3bf]" name="verify_pop_up_window_closed" duration-ms="106" started-at="2023-04-01T13:41:57Z" finished-at="2023-04-01T13:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_pop_up_window_closed -->
       </class> <!-- Test.TC04 -->
       <class name="Test.TC03">
-        <test-method status="PASS" signature="verify_can_not_add_more_500_product_in_cart()[pri:4, instance:Test.TC03@2df9b86]" name="verify_can_not_add_more_500_product_in_cart" duration-ms="3461" started-at="2023-03-31T16:08:36Z" finished-at="2023-03-31T16:08:39Z">
+        <test-method status="PASS" signature="verify_can_not_add_more_500_product_in_cart()[pri:4, instance:Test.TC03@101952da]" name="verify_can_not_add_more_500_product_in_cart" duration-ms="3270" started-at="2023-04-01T13:41:50Z" finished-at="2023-04-01T13:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_can_not_add_more_500_product_in_cart -->
-        <test-method status="PASS" signature="verify_cart_is_empty()[pri:5, instance:Test.TC03@2df9b86]" name="verify_cart_is_empty" duration-ms="1002" started-at="2023-03-31T16:08:39Z" finished-at="2023-03-31T16:08:40Z">
+        <test-method status="PASS" signature="verify_cart_is_empty()[pri:5, instance:Test.TC03@101952da]" name="verify_cart_is_empty" duration-ms="891" started-at="2023-04-01T13:41:53Z" finished-at="2023-04-01T13:41:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_cart_is_empty -->
       </class> <!-- Test.TC03 -->
       <class name="Test.TC06">
-        <test-method status="PASS" signature="verify_flat_rate_shipping_of_5$_is_genrated()[pri:9, instance:Test.TC06@33990a0c]" name="verify_flat_rate_shipping_of_5$_is_genrated" duration-ms="10625" started-at="2023-03-31T16:08:52Z" finished-at="2023-03-31T16:09:03Z">
+        <test-method status="PASS" signature="verify_flat_rate_shipping_of_5$_is_genrated()[pri:9, instance:Test.TC06@7ea9e1e2]" name="verify_flat_rate_shipping_of_5$_is_genrated" duration-ms="9406" started-at="2023-04-01T13:42:05Z" finished-at="2023-04-01T13:42:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_flat_rate_shipping_of_5$_is_genrated -->
-        <test-method status="PASS" signature="verify_shipping_cost_is_add_total()[pri:10, instance:Test.TC06@33990a0c]" name="verify_shipping_cost_is_add_total" duration-ms="159" started-at="2023-03-31T16:09:03Z" finished-at="2023-03-31T16:09:03Z">
+        <test-method status="PASS" signature="verify_shipping_cost_is_add_total()[pri:10, instance:Test.TC06@7ea9e1e2]" name="verify_shipping_cost_is_add_total" duration-ms="149" started-at="2023-04-01T13:42:15Z" finished-at="2023-04-01T13:42:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_shipping_cost_is_add_total -->
-        <test-method status="PASS" signature="verify_order_is_created()[pri:11, instance:Test.TC06@33990a0c]" name="verify_order_is_created" duration-ms="6576" started-at="2023-03-31T16:09:03Z" finished-at="2023-03-31T16:09:10Z">
+        <test-method status="PASS" signature="verify_order_is_created()[pri:11, instance:Test.TC06@7ea9e1e2]" name="verify_order_is_created" duration-ms="7282" started-at="2023-04-01T13:42:15Z" finished-at="2023-04-01T13:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_is_created -->
       </class> <!-- Test.TC06 -->
       <class name="Test.TC05">
-        <test-method status="PASS" signature="verify_account_register_done()[pri:8, instance:Test.TC05@15aab8c6]" name="verify_account_register_done" duration-ms="4491" started-at="2023-03-31T16:08:44Z" finished-at="2023-03-31T16:08:49Z">
+        <test-method status="PASS" signature="verify_account_register_done()[pri:8, instance:Test.TC05@3059cbc]" name="verify_account_register_done" duration-ms="4091" started-at="2023-04-01T13:41:57Z" finished-at="2023-04-01T13:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_register_done -->
-        <test-method status="PASS" signature="verify_wishlist_shared_successfully()[pri:8, instance:Test.TC05@15aab8c6]" name="verify_wishlist_shared_successfully" duration-ms="3977" started-at="2023-03-31T16:08:49Z" finished-at="2023-03-31T16:08:52Z">
+        <test-method status="PASS" signature="verify_wishlist_shared_successfully()[pri:8, instance:Test.TC05@3059cbc]" name="verify_wishlist_shared_successfully" duration-ms="3781" started-at="2023-04-01T13:42:01Z" finished-at="2023-04-01T13:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_wishlist_shared_successfully -->
       </class> <!-- Test.TC05 -->
       <class name="Test.TC08">
-        <test-method status="PASS" signature="verify_grand_total_changed()[pri:14, instance:Test.TC08@50b5ac82]" name="verify_grand_total_changed" duration-ms="5053" started-at="2023-03-31T16:09:18Z" finished-at="2023-03-31T16:09:23Z">
+        <test-method status="PASS" signature="verify_grand_total_changed()[pri:14, instance:Test.TC08@10feca44]" name="verify_grand_total_changed" duration-ms="4869" started-at="2023-04-01T13:42:35Z" finished-at="2023-04-01T13:42:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_grand_total_changed -->
-        <test-method status="PASS" signature="verify_order_number_is_genrated()[pri:15, instance:Test.TC08@50b5ac82]" name="verify_order_number_is_genrated" duration-ms="4065" started-at="2023-03-31T16:09:23Z" finished-at="2023-03-31T16:09:28Z">
+        <test-method status="PASS" signature="verify_order_number_is_genrated()[pri:15, instance:Test.TC08@10feca44]" name="verify_order_number_is_genrated" duration-ms="4127" started-at="2023-04-01T13:42:40Z" finished-at="2023-04-01T13:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_number_is_genrated -->
       </class> <!-- Test.TC08 -->
       <class name="Test.TC07">
-        <test-method status="PASS" signature="verify_recent_order_is_display()[pri:12, instance:Test.TC07@4de4b452]" name="verify_recent_order_is_display" duration-ms="3300" started-at="2023-03-31T16:09:10Z" finished-at="2023-03-31T16:09:13Z">
+        <test-method status="PASS" signature="verify_recent_order_is_display()[pri:12, instance:Test.TC07@24fcf36f]" name="verify_recent_order_is_display" duration-ms="2971" started-at="2023-04-01T13:42:22Z" finished-at="2023-04-01T13:42:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_recent_order_is_display -->
-        <test-method status="PASS" signature="verify_order_is_saved_as_pdf()[pri:13, instance:Test.TC07@4de4b452]" name="verify_order_is_saved_as_pdf" duration-ms="5247" started-at="2023-03-31T16:09:13Z" finished-at="2023-03-31T16:09:18Z">
+        <test-method status="PASS" signature="verify_order_is_saved_as_pdf()[pri:13, instance:Test.TC07@24fcf36f]" name="verify_order_is_saved_as_pdf" duration-ms="10283" started-at="2023-04-01T13:42:25Z" finished-at="2023-04-01T13:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_is_saved_as_pdf -->
       </class> <!-- Test.TC07 -->
       <class name="Test.TC09">
-        <test-method status="PASS" signature="verify_dicount_is_applied()[pri:16, instance:Test.TC09@101952da]" name="verify_dicount_is_applied" duration-ms="3246" started-at="2023-03-31T16:09:28Z" finished-at="2023-03-31T16:09:31Z">
+        <test-method status="PASS" signature="verify_dicount_is_applied()[pri:16, instance:Test.TC09@3fb1549b]" name="verify_dicount_is_applied" duration-ms="3162" started-at="2023-04-01T13:42:44Z" finished-at="2023-04-01T13:42:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_dicount_is_applied -->
