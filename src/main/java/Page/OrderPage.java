@@ -3,6 +3,8 @@ package Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.sikuli.script.FindFailed;
+import org.sikuli.script.Key;
+import org.sikuli.script.Screen;
 
 public class OrderPage extends BasePage{
     public OrderPage(WebDriver driver) {
@@ -26,13 +28,19 @@ public class OrderPage extends BasePage{
         //clickButton(print);
         clickScreenButton("print");
     }
+    public String get_oreder_details() throws FindFailed {
+        return getTextScreen("product");
+    }
     public void click_reorder(){
         clickButton(reorder);
     }
-    public void enter_filename(String name) throws FindFailed {
-            sendTextsecreen("name",name);
-    }
-    public void click_save() throws FindFailed {
+
+    public void click_save(String name) throws FindFailed {
+             sendTextsecreen("name",name);
+            clickScreenButton("path");
+            screen.type(Key.BACKSPACE);
+            sendTextsecreen("path02",projectPath+"\\pdffile");
+            screen.type(Key.ENTER);
             clickScreenButton("save");
     }
 

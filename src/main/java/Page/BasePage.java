@@ -21,7 +21,7 @@ public class BasePage{
     Screen screen;
     Pattern pattern;
     Match match;
-    private String projectPath = System.getProperty("user.dir");
+    public String projectPath = System.getProperty("user.dir");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -81,6 +81,7 @@ public class BasePage{
         screen = new Screen();
         pattern=new Pattern(projectPath+"\\screenelement\\"+element+".png");
         screen.wait(pattern,20);
+        screen.type(Key.BACKSPACE);
         screen.type(pattern,text);
     }
     public String getTextScreen(String element) throws FindFailed {

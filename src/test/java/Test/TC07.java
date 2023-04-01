@@ -34,9 +34,9 @@ public class TC07 extends BaseTest{
     public void verify_order_is_saved_as_pdf() throws FindFailed {
         op.click_print_order();
         op.switich_to_window();
+        //System.out.println(op.get_oreder_details());
         op.click_print();
-        op.enter_filename(TC06.id);
-        op.click_save();
+        op.click_save(TC06.id);
         op.close_pop_up_window();
     }
 }
