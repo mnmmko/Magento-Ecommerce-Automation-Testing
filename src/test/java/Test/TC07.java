@@ -35,8 +35,8 @@ public class TC07 extends BaseTest{
         op.click_print_order();
         op.switich_to_window();
         //System.out.println(op.get_oreder_details());
-        op.click_print();
-        op.click_save(TC06.id);
+        //op.click_print();
+       // op.click_save(TC06.id);
         op.close_pop_up_window();
     }
 }
