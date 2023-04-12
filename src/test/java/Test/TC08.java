@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class TC08 extends BaseTest{
+    
   //  private WebDriver driver;
     HomePage hp;
     LoginPage lp;
@@ -19,6 +20,7 @@ public class TC08 extends BaseTest{
     @Test(priority = 14)
     public void verify_grand_total_changed() throws InterruptedException {
        // driver=BaseTest.getDriver();
+        op.close_pop_up_window();
         hp=new HomePage(driver);
         cp=new CartPage(driver);
         lp=new LoginPage(driver);
