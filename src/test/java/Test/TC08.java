@@ -20,12 +20,12 @@ public class TC08 extends BaseTest{
     @Test(priority = 14)
     public void verify_grand_total_changed() throws InterruptedException {
        // driver=BaseTest.getDriver();
-        op.close_pop_up_window();
         hp=new HomePage(driver);
         cp=new CartPage(driver);
         lp=new LoginPage(driver);
         chp=new CheckoutPage(driver);
         op=new OrderPage(driver);
+        op.close_pop_up_window();
 //       hp.click_My_account();
 //        lp.login("ali123@gmail.com","12345678");
         op.click_reorder();
