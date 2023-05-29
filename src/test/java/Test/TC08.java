@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class TC08 extends BaseTest{
+    
   //  private WebDriver driver;
     HomePage hp;
     LoginPage lp;
@@ -24,6 +25,7 @@ public class TC08 extends BaseTest{
         lp=new LoginPage(driver);
         chp=new CheckoutPage(driver);
         op=new OrderPage(driver);
+        op.close_pop_up_window();
 //       hp.click_My_account();
 //        lp.login("ali123@gmail.com","12345678");
         op.click_reorder();

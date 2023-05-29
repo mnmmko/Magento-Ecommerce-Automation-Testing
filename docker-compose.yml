@@ -1,0 +1,23 @@
+version: "3"
+services:
+  sel-chrome:
+    image: mnmmko/magento-ecommerce-automation-testing
+    container_name: sel-containers
+#   build: .
+#   build:
+#     context: .
+#       args:
+#         - env=envs
+
+    build:
+      context: .
+      target: test
+    volumes:
+      - .:/Ecomerce:ro
+    ports:
+      - "4444:4444"
+    command: mvn clean test
+#   envirnment:
+#     -port=4444
+#   env_file:
+#     - ./.env

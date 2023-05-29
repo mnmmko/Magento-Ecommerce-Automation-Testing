@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ECommerece]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="test_ecommerce(failed)" verbose="0">
+    <classes>
+      <class name="Test.TC07">
+        <methods>
+          <include name="open"/>
+          <include name="verify_order_is_saved_as_pdf"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Test.TC07 -->
+    </classes>
+  </test> <!-- test_ecommerce(failed) -->
+</suite> <!-- Failed suite [ECommerece] -->

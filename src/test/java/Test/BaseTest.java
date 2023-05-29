@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITest;
 import org.testng.annotations.*;
 
@@ -20,12 +22,16 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
 import java.util.Random;
+import java.net.URL;
 
 @Listeners(value= Reportio.class)
 public class BaseTest {
-   public static WebDriver driver;
+  public static WebDriver driver;
    public static Properties prop;
-
+   public DesiredCapabilities dc;
+   public URL url;
+//   public static RemoteWebDriver driver;
+   public String projectPath = System.getProperty("user.dir");
 
 //    public static WebDriver getDriver() {
 //        return driver;
@@ -36,6 +42,8 @@ public class BaseTest {
     }
 
     public static ChromeOptions chromeOption() {
+
+
         ChromeOptions options = new ChromeOptions();
         //HashMap key object
         HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
@@ -51,17 +59,21 @@ public class BaseTest {
     @BeforeSuite
     @Parameters({"browser"})
     public void open(String browser) throws IOException {
+        dc=DesiredCapabilities.chrome();
+        url=new URL("http://localhost:4444/wd/hub");
         prop=new Properties();
-        prop.load(new FileInputStream("src/main/java/Properties/prop.properties"));
+      //  prop.load(new FileInputStream(projectPath+"\\src\\main\\java\\Properties\\prop.properties"));
         if (browser.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(chromeOption());
+//               driver = new RemoteWebDriver(url,chromeOption());
+              driver = new ChromeDriver(chromeOption());
         }else if (browser.equals("firefox")){
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }
         driver.manage().window().maximize();
-        driver.navigate().to(prop.getProperty("baseurl"));
+/*prop.getProperty("baseurl")*/
+        driver.navigate().to("http://live.techpanda.org/index.php/");
     }
     @AfterSuite
     public void close(){

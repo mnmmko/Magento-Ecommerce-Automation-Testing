@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 89.729 sec - in TestSuite
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 179.086 sec <<< FAILURE! - in TestSuite
+verify_order_is_saved_as_pdf(Test.TC07)  Time elapsed: 25.238 sec  <<< FAILURE!
+org.sikuli.script.FindFailed: C:\Users\MNaebeh\Downloads\Automation Testing\Magento-Ecommerce-Automation-Testing-main\screenelement\print.png: (70x34) in R[0,0 1280x720]@S(0)
+	at Test.TC07.verify_order_is_saved_as_pdf(TC07.java:38)
+

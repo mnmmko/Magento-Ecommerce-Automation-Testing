@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="18" total="37" passed="19">
+<testng-results ignored="18" total="37" passed="18" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ECommerece" duration-ms="83089" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:43:08Z">
+  <suite started-at="2023-05-28T20:58:36Z" name="ECommerece" finished-at="2023-05-28T21:01:07Z" duration-ms="151003">
     <groups>
       <group name="tc01">
-        <method signature="TC01.verify_product_sort_by_name()[pri:2, instance:Test.TC01@4de4b452]" name="verify_product_sort_by_name" class="Test.TC01"/>
+        <method signature="TC01.verify_product_sort_by_name()[pri:2, instance:Test.TC01@3081f72c]" name="verify_product_sort_by_name" class="Test.TC01"/>
       </group> <!-- tc01 -->
     </groups>
-    <test name="test_ecommerce" duration-ms="83089" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:43:08Z">
+    <test started-at="2023-05-28T20:58:36Z" name="test_ecommerce" finished-at="2023-05-28T21:01:07Z" duration-ms="151003">
       <class name="Test.TC10">
-        <test-method status="PASS" signature="verify_console_display_all_order_information()[pri:17, instance:Test.TC10@ea6147e]" name="verify_console_display_all_order_information" duration-ms="20391" started-at="2023-04-01T13:42:47Z" finished-at="2023-04-01T13:43:08Z">
+        <test-method signature="verify_console_display_all_order_information()[pri:17, instance:Test.TC10@609db546]" started-at="2023-05-28T21:00:42Z" name="verify_console_display_all_order_information" finished-at="2023-05-28T21:01:07Z" duration-ms="24867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_console_display_all_order_information -->
       </class> <!-- Test.TC10 -->
       <class name="Test.TC02">
-        <test-method status="PASS" signature="verify_product_value()[pri:3, instance:Test.TC02@50b5ac82]" name="verify_product_value" duration-ms="2482" started-at="2023-04-01T13:41:47Z" finished-at="2023-04-01T13:41:50Z">
+        <test-method signature="verify_product_value()[pri:3, instance:Test.TC02@3148f668]" started-at="2023-05-28T20:58:42Z" name="verify_product_value" finished-at="2023-05-28T20:58:45Z" duration-ms="2981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_value -->
       </class> <!-- Test.TC02 -->
       <class name="Test.TC01">
-        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:Test.TC01@4de4b452]" name="open" is-config="true" duration-ms="4908" started-at="2023-04-01T13:41:40Z" finished-at="2023-04-01T13:41:45Z">
+        <test-method is-config="true" signature="open(java.lang.String)[pri:0, instance:Test.TC01@3081f72c]" started-at="2023-05-28T20:58:11Z" name="open" finished-at="2023-05-28T20:58:36Z" duration-ms="24440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,89 +33,132 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="verify_title_of_home_page()[pri:0, instance:Test.TC01@4de4b452]" name="verify_title_of_home_page" duration-ms="135" started-at="2023-04-01T13:41:45Z" finished-at="2023-04-01T13:41:45Z">
+        <test-method signature="verify_title_of_home_page()[pri:0, instance:Test.TC01@3081f72c]" started-at="2023-05-28T20:58:36Z" name="verify_title_of_home_page" finished-at="2023-05-28T20:58:37Z" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_title_of_home_page -->
-        <test-method status="PASS" signature="verfiy_title_of_mobile_page()[pri:1, instance:Test.TC01@4de4b452]" name="verfiy_title_of_mobile_page" duration-ms="1019" started-at="2023-04-01T13:41:45Z" depends-on-methods="Test.TC01.verify_title_of_home_page" finished-at="2023-04-01T13:41:46Z">
+        <test-method signature="verfiy_title_of_mobile_page()[pri:1, instance:Test.TC01@3081f72c]" started-at="2023-05-28T20:58:37Z" name="verfiy_title_of_mobile_page" finished-at="2023-05-28T20:58:40Z" depends-on-methods="Test.TC01.verify_title_of_home_page" duration-ms="3116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verfiy_title_of_mobile_page -->
-        <test-method status="PASS" signature="verify_product_sort_by_name()[pri:2, instance:Test.TC01@4de4b452]" name="verify_product_sort_by_name" duration-ms="983" started-at="2023-04-01T13:41:46Z" finished-at="2023-04-01T13:41:47Z">
+        <test-method signature="verify_product_sort_by_name()[pri:2, instance:Test.TC01@3081f72c]" started-at="2023-05-28T20:58:40Z" name="verify_product_sort_by_name" finished-at="2023-05-28T20:58:42Z" duration-ms="1607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_sort_by_name -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Test.TC01@4de4b452]" name="close" is-config="true" duration-ms="665" started-at="2023-04-01T13:43:08Z" finished-at="2023-04-01T13:43:09Z">
+        <test-method is-config="true" signature="close()[pri:0, instance:Test.TC01@3081f72c]" started-at="2023-05-28T21:01:07Z" name="close" finished-at="2023-05-28T21:01:07Z" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Test.TC01 -->
       <class name="Test.TC04">
-        <test-method status="PASS" signature="verify_pop_up_compare_window()[pri:6, instance:Test.TC04@6babf3bf]" name="verify_pop_up_compare_window" duration-ms="3561" started-at="2023-04-01T13:41:54Z" finished-at="2023-04-01T13:41:57Z">
+        <test-method signature="verify_pop_up_compare_window()[pri:6, instance:Test.TC04@7ceb3185]" started-at="2023-05-28T20:58:55Z" name="verify_pop_up_compare_window" finished-at="2023-05-28T20:59:00Z" duration-ms="4774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_pop_up_compare_window -->
-        <test-method status="PASS" signature="verify_pop_up_window_closed()[pri:7, instance:Test.TC04@6babf3bf]" name="verify_pop_up_window_closed" duration-ms="106" started-at="2023-04-01T13:41:57Z" finished-at="2023-04-01T13:41:57Z">
+        <test-method signature="verify_pop_up_window_closed()[pri:7, instance:Test.TC04@7ceb3185]" started-at="2023-05-28T20:59:00Z" name="verify_pop_up_window_closed" finished-at="2023-05-28T20:59:00Z" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_pop_up_window_closed -->
       </class> <!-- Test.TC04 -->
       <class name="Test.TC03">
-        <test-method status="PASS" signature="verify_can_not_add_more_500_product_in_cart()[pri:4, instance:Test.TC03@101952da]" name="verify_can_not_add_more_500_product_in_cart" duration-ms="3270" started-at="2023-04-01T13:41:50Z" finished-at="2023-04-01T13:41:53Z">
+        <test-method signature="verify_can_not_add_more_500_product_in_cart()[pri:4, instance:Test.TC03@6e005dc9]" started-at="2023-05-28T20:58:45Z" name="verify_can_not_add_more_500_product_in_cart" finished-at="2023-05-28T20:58:54Z" duration-ms="8560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_can_not_add_more_500_product_in_cart -->
-        <test-method status="PASS" signature="verify_cart_is_empty()[pri:5, instance:Test.TC03@101952da]" name="verify_cart_is_empty" duration-ms="891" started-at="2023-04-01T13:41:53Z" finished-at="2023-04-01T13:41:54Z">
+        <test-method signature="verify_cart_is_empty()[pri:5, instance:Test.TC03@6e005dc9]" started-at="2023-05-28T20:58:54Z" name="verify_cart_is_empty" finished-at="2023-05-28T20:58:55Z" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_cart_is_empty -->
       </class> <!-- Test.TC03 -->
       <class name="Test.TC06">
-        <test-method status="PASS" signature="verify_flat_rate_shipping_of_5$_is_genrated()[pri:9, instance:Test.TC06@7ea9e1e2]" name="verify_flat_rate_shipping_of_5$_is_genrated" duration-ms="9406" started-at="2023-04-01T13:42:05Z" finished-at="2023-04-01T13:42:15Z">
+        <test-method signature="verify_flat_rate_shipping_of_5$_is_genrated()[pri:9, instance:Test.TC06@3561c410]" started-at="2023-05-28T20:59:21Z" name="verify_flat_rate_shipping_of_5$_is_genrated" finished-at="2023-05-28T20:59:38Z" duration-ms="17366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_flat_rate_shipping_of_5$_is_genrated -->
-        <test-method status="PASS" signature="verify_shipping_cost_is_add_total()[pri:10, instance:Test.TC06@7ea9e1e2]" name="verify_shipping_cost_is_add_total" duration-ms="149" started-at="2023-04-01T13:42:15Z" finished-at="2023-04-01T13:42:15Z">
+        <test-method signature="verify_shipping_cost_is_add_total()[pri:10, instance:Test.TC06@3561c410]" started-at="2023-05-28T20:59:38Z" name="verify_shipping_cost_is_add_total" finished-at="2023-05-28T20:59:39Z" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_shipping_cost_is_add_total -->
-        <test-method status="PASS" signature="verify_order_is_created()[pri:11, instance:Test.TC06@7ea9e1e2]" name="verify_order_is_created" duration-ms="7282" started-at="2023-04-01T13:42:15Z" finished-at="2023-04-01T13:42:22Z">
+        <test-method signature="verify_order_is_created()[pri:11, instance:Test.TC06@3561c410]" started-at="2023-05-28T20:59:39Z" name="verify_order_is_created" finished-at="2023-05-28T20:59:51Z" duration-ms="11986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_is_created -->
       </class> <!-- Test.TC06 -->
       <class name="Test.TC05">
-        <test-method status="PASS" signature="verify_account_register_done()[pri:8, instance:Test.TC05@3059cbc]" name="verify_account_register_done" duration-ms="4091" started-at="2023-04-01T13:41:57Z" finished-at="2023-04-01T13:42:01Z">
+        <test-method signature="verify_account_register_done()[pri:8, instance:Test.TC05@436c81a3]" started-at="2023-05-28T20:59:00Z" name="verify_account_register_done" finished-at="2023-05-28T20:59:11Z" duration-ms="10919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_register_done -->
-        <test-method status="PASS" signature="verify_wishlist_shared_successfully()[pri:8, instance:Test.TC05@3059cbc]" name="verify_wishlist_shared_successfully" duration-ms="3781" started-at="2023-04-01T13:42:01Z" finished-at="2023-04-01T13:42:05Z">
+        <test-method signature="verify_wishlist_shared_successfully()[pri:8, instance:Test.TC05@436c81a3]" started-at="2023-05-28T20:59:11Z" name="verify_wishlist_shared_successfully" finished-at="2023-05-28T20:59:21Z" duration-ms="9479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_wishlist_shared_successfully -->
       </class> <!-- Test.TC05 -->
       <class name="Test.TC08">
-        <test-method status="PASS" signature="verify_grand_total_changed()[pri:14, instance:Test.TC08@10feca44]" name="verify_grand_total_changed" duration-ms="4869" started-at="2023-04-01T13:42:35Z" finished-at="2023-04-01T13:42:40Z">
+        <test-method signature="verify_grand_total_changed()[pri:14, instance:Test.TC08@7c214cc0]" started-at="2023-05-28T21:00:22Z" name="verify_grand_total_changed" finished-at="2023-05-28T21:00:31Z" duration-ms="9634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_grand_total_changed -->
-        <test-method status="PASS" signature="verify_order_number_is_genrated()[pri:15, instance:Test.TC08@10feca44]" name="verify_order_number_is_genrated" duration-ms="4127" started-at="2023-04-01T13:42:40Z" finished-at="2023-04-01T13:42:44Z">
+        <test-method signature="verify_order_number_is_genrated()[pri:15, instance:Test.TC08@7c214cc0]" started-at="2023-05-28T21:00:32Z" name="verify_order_number_is_genrated" finished-at="2023-05-28T21:00:37Z" duration-ms="5852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_number_is_genrated -->
       </class> <!-- Test.TC08 -->
       <class name="Test.TC07">
-        <test-method status="PASS" signature="verify_recent_order_is_display()[pri:12, instance:Test.TC07@24fcf36f]" name="verify_recent_order_is_display" duration-ms="2971" started-at="2023-04-01T13:42:22Z" finished-at="2023-04-01T13:42:25Z">
+        <test-method signature="verify_recent_order_is_display()[pri:12, instance:Test.TC07@59e32960]" started-at="2023-05-28T20:59:51Z" name="verify_recent_order_is_display" finished-at="2023-05-28T20:59:56Z" duration-ms="5544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_recent_order_is_display -->
-        <test-method status="PASS" signature="verify_order_is_saved_as_pdf()[pri:13, instance:Test.TC07@24fcf36f]" name="verify_order_is_saved_as_pdf" duration-ms="10283" started-at="2023-04-01T13:42:25Z" finished-at="2023-04-01T13:42:35Z">
+        <test-method signature="verify_order_is_saved_as_pdf()[pri:13, instance:Test.TC07@59e32960]" started-at="2023-05-28T20:59:56Z" name="verify_order_is_saved_as_pdf" finished-at="2023-05-28T21:00:22Z" duration-ms="25216" status="FAIL">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[C:\Users\MNaebeh\Downloads\Automation Testing\Magento-Ecommerce-Automation-Testing-main\screenelement\print.png: (70x34) in R[0,0 1280x720]@S(0)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: C:\Users\MNaebeh\Downloads\Automation Testing\Magento-Ecommerce-Automation-Testing-main\screenelement\print.png: (70x34) in R[0,0 1280x720]@S(0)
+  Line 2226, in file Region.java
+
+at org.sikuli.script.Region.wait(Region.java:2226)
+at Page.BasePage.clickScreenButton(BasePage.java:77)
+at Page.OrderPage.click_print(OrderPage.java:29)
+at Test.TC07.verify_order_is_saved_as_pdf(TC07.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_is_saved_as_pdf -->
       </class> <!-- Test.TC07 -->
       <class name="Test.TC09">
-        <test-method status="PASS" signature="verify_dicount_is_applied()[pri:16, instance:Test.TC09@3fb1549b]" name="verify_dicount_is_applied" duration-ms="3162" started-at="2023-04-01T13:42:44Z" finished-at="2023-04-01T13:42:47Z">
+        <test-method signature="verify_dicount_is_applied()[pri:16, instance:Test.TC09@5b67bb7e]" started-at="2023-05-28T21:00:37Z" name="verify_dicount_is_applied" finished-at="2023-05-28T21:00:42Z" duration-ms="4327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_dicount_is_applied -->
