@@ -30,7 +30,7 @@ pipeline {
             steps {
            
                   
-                bat 'docker push nmmko/magento-ecommerce-automation-testing'
+                bat 'docker push mnmmko/magento-ecommerce-automation-testing'
                       
             }
         }
