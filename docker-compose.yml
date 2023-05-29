@@ -2,7 +2,7 @@ version: "3"
 services:
   sel-chrome:
     image: mnmmko/magento-ecommerce-automation-testing
-    container_name: sel-containers
+#   container_name: sel-containers
 #   build: .
 #   build:
 #     context: .
