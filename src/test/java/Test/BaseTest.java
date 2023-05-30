@@ -47,7 +47,8 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         //HashMap key object
         HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-        ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+        //arguments
+        options.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
         //by dafult of chrome ,chrome doesn't appeare options
         chromePrefs.put("profile.default.content_settings.popups", 0);
         //path of folder
