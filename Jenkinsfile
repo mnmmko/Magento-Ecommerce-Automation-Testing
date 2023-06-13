@@ -34,6 +34,15 @@ pipeline {
                       
             }
         }
+         stage('Deployment app') {
+            
+              steps {
+           
+                  
+                bat 'kubectl apply -f deployment-file.yml'
+                      
+                  }
+        }
           }
 
 }

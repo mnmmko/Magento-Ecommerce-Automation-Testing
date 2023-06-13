@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: magento-ecommerce-automation-testing
+  labels:
+    app: webserver
+spec:
+  selector: 
+    matchLabels: 
+      app: webserver
+  replicas: 2
+  template: 
+    metadata:
+      labels:
+        app: webserver
+    spec: 
+      containers:
+        - name: sel-container
+          image: mnmmko/magento-ecommerce-automation-testing
+          ports:
+            - containerPort: 4444
